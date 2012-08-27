@@ -1,5 +1,7 @@
 $:.unshift File.join(File.dirname(__FILE__),'lib')
 
+ENV['db_use'] = 'sqlite_default'
+
 require 'rubygems'
 require 'sinatra'
 require 'json'
